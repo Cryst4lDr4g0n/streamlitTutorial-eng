@@ -67,7 +67,7 @@ if __name__ == "__main__":
                 col1,col2=st.columns(2)
                 col1.subheader(f":green[Result {index+1}]")
                 col1.text(f"Room Code:{row['CodR']}")
-                col1.text(f"Floor:{row['CodR']}")
+                col1.text(f"Floor:{row['Floor']}")
                 col1.text(f"Type:{row['Type']}")
                 col2.image(f"images/{row['Type']}.png")
 

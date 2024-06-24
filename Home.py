@@ -15,6 +15,7 @@ if __name__ == "__main__":
 		}
     )
     st.title("📈 Hotel Rooms Management")
+    st.markdown(":red[Streamlit]  ## :blue[Laboratory]")
 
     if "connection" not in st.session_state.keys():
         st.session_state["connection"]=False
