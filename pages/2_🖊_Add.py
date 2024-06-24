@@ -63,7 +63,7 @@ def create_form():
     if submitted:
         #check that the insertion was successful or not
         if insert(insert_dict):
-            st.success("You have added this product: ",icon='✅ ')
+            st.success("You have added this product: ",icon='✅')
             st.write(insert_dict)
         else:
             st.error("Unable to add product.",icon='⚠️')
