@@ -4,3 +4,4 @@ PyMySQL==1.0.3
 SQLAlchemy==2.0.12
 streamlit==1.22.0
 urllib3==1.26.6
+numpy==1.26.4
