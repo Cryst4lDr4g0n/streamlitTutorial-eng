@@ -36,7 +36,7 @@ Restart Docker Desktop and wait for it to finish loading before executing the ne
 <br>
 
 ## 2. Command Prompt
-OgniEach command should be executed in the command prompt, pressing ENTER to run it. A command is running until it returns the name of the current directory and the `>` symbol. (eg. `C:\Users\<username>`)\
+Each command should be executed in the command prompt, pressing ENTER to run it. A command is running until it returns the name of the current directory and the `>` symbol. (eg. `C:\Users\<username>`)\
 Let the command execute until it finishes before entering another one. Some commands, like installing requirements with `pip`, may take several minutes.
 
 To open the correct prompt:
